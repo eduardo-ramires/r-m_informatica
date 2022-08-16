@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(to bottom, #928a766d, #999999);
+}
+
+.bg-gradient{
+    background: linear-gradient(-120deg, rgba(100,100,100,1), rgba(0,0,0,1));
+}
+
+.comprar:hover{
+    background-color: rgb(43, 190, 30);
+    color: #000000;
+}
+
+.text-gold{
+    color: #DAA520 !important;
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 3px #000000;
+}
+
+.produtos{
+    background: rgba(255, 255, 255, 0.294);
+    transition: background 2s;
+    border-radius: 15px;
+    height: 150px;
+    border: 1px solid transparent;
+}
+
+.bortawd{
+    border: 2px solid red ;
+}
+
+.icone{
+    margin-top: 70%;
+}
+
+.transparente{
+    background: rgba(255, 255, 255, 0.105);
+    transition: background 2s;
+}
+
+#destaque .transparente:hover{
+    background: rgba(233, 233, 233, 0.7);
+}
+
+.border-radius{
+    border-radius: 5px;
+}
+
+.middle-y{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.middle-x{
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.titulo-secao{
+    text-align: center;
+    
+}
+
+.titulo-produtos{
+    padding-top: 80px;
+}
+
+footer{
+    background:linear-gradient(-120deg, rgb(100, 100, 100), black);
+    height: 160px;
+    padding: 50px;
+}
+
+.distancia{
+    height: 150px;
+}
+
+.img{
+    height: 300px;
+    padding-top: 5%;
+}
+
+@media (max-width: 767px){
+    #destaque .transparente{
+        background-color: #555555;
+    }
+}
+
+@media (min-width: 768px){
+    #destaque {
+        margin-top: -205px;
+    }
+}
